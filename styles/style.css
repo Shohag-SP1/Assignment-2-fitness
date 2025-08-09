@@ -26,6 +26,18 @@ body {
 section {
   margin-top: 75px;
 }
+.primary-btn {
+  /* 122.222% */
+  background: #e6533c;
+  border-radius: 45px;
+  padding: 10px 25px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 17px; /* 122.222% */
+  border: 1px solid #fff;
+  cursor: pointer;
+}
 /* header starts */
 .header {
   background: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 0) 100%);
@@ -89,18 +101,6 @@ section {
   display: flex;
   gap: 10px;
   margin-top: 20px;
-}
-.banner-btn .primary-btn {
-  /* 122.222% */
-  background: #e6533c;
-  border-radius: 45px;
-  padding: 10px 25px;
-  color: #fff;
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 17px; /* 122.222% */
-  border: 1px solid #fff;
-  cursor: pointer;
 }
 
 .banner-btn .secondary-btn {
@@ -227,4 +227,42 @@ section {
   font-weight: 400;
   line-height: 15px; /* 128.571% */
   letter-spacing: 0.3px;
+  margin-top: 10px;
+}
+/* run section styles */
+.run {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 18px 22px 38px;
+  border-radius: 18px;
+  background: #222;
+}
+.run .run-content {
+  width: 45%;
+}
+.run-content .run-title {
+  color: #fff;
+  font-size: 38px;
+  font-weight: 900;
+  line-height: 110%; /* 57.6px */
+}
+.run-content .run-desc {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 171.429% */
+  letter-spacing: 0.3px;
+  margin-top: 10px;
+}
+.run-content .run-btn {
+  margin-top: 15px;
+}
+.run .run-image {
+  width: 45%;
+}
+.run-image img {
+  width: 100%;
+  border-radius: 15px;
 }
