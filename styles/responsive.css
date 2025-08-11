@@ -5,17 +5,21 @@
   }
   .navbar ul,
   .banner,
-  .run {
+  .run,
+  .chart .chart-container {
     flex-direction: column;
   }
   .navbar ul,
-  .run {
+  .run,
+  .chart .chart-container {
     gap: 15px;
   }
   .banner .banner-content,
   .banner .banner-image,
   .run .run-content,
-  .run .run-image {
+  .run .run-image,
+  .chart-container .chart-left,
+  .chart-container .chart-right {
     width: 100%;
   }
   .banner-image .first-border {
@@ -34,6 +38,11 @@
     grid-template-columns: 1fr;
     padding: 20px;
   }
+  /* chart section */
+  .chart-container .chart-left,
+  .chart-container .chart-right {
+    margin: 0 auto;
+  }
 }
 
 /* for tablet  */
@@ -43,7 +52,12 @@
     padding: 35px 20px;
   }
   .banner .banner-content,
-  .banner .banner-image {
+  .banner .banner-image,
+  .chart-container .chart-left,
+  .chart-container .chart-right {
+    width: 100%;
+  }
+   {
     width: 100%;
   }
   .banner-content .banner-btn {
@@ -66,5 +80,11 @@
   .habit .habit-container {
     grid-template-columns: repeat(2, 1fr);
     padding: 20px;
+  }
+  /* chart section */
+  .chart .chart-container {
+    flex-direction: column;
+    padding: 10px 15px;
+    gap: 25px;
   }
 }

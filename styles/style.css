@@ -369,7 +369,7 @@ section {
 .chart .chart-container {
   display: flex;
   justify-content: space-between;
-  padding: 35px 40px;
+  padding: 50px 70px;
 }
 .chart-container .chart-left {
   width: 35%;
@@ -395,6 +395,7 @@ td {
   border-collapse: collapse;
   padding: 6px 10px;
 }
+
 th {
   color: #fff;
   font-family: Inter;
