@@ -43,6 +43,34 @@
   .chart-container .chart-right {
     margin: 0 auto;
   }
+  .team .team-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+  }
+  .team-container .team-member-1 {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+  }
+  .team-container .team-member-2 {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+  }
+  .team-container .team-member-3 {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+  }
+  .team-container .team-member-4 {
+    grid-column: 1 / span 1;
+    grid-row: 4 / span 1;
+  }
+  .team-container .team-member-5 {
+    grid-column: 1 / span 1;
+    grid-row: 5 / span 1;
+  }
+  .team-container .team-member-6 {
+    grid-column: 1 / span 1;
+    grid-row: 6 / span 1;
+  }
 }
 
 /* for tablet  */
@@ -57,9 +85,7 @@
   .chart-container .chart-right {
     width: 100%;
   }
-   {
-    width: 100%;
-  }
+
   .banner-content .banner-btn {
     justify-content: center;
     gap: 20px;

@@ -38,6 +38,23 @@ section {
   border: 1px solid #fff;
   cursor: pointer;
 }
+.common-title {
+  color: #fff;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 110%; /* 57.6px */
+  text-align: center;
+}
+.common-desc {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 18px; /* 171.429% */
+  letter-spacing: 0.3px;
+  text-align: center;
+  margin-top: 10px;
+}
 /* header starts */
 .header {
   background: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 0) 100%);
@@ -343,23 +360,7 @@ section {
 /* calcultaor styles */
 .calculator {
 }
-.calculator .calculator-title {
-  color: #fff;
-  font-size: 38px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 110%; /* 57.6px */
-  text-align: center;
-}
-.calculator .calculator-desc {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 11px;
-  font-weight: 400;
-  line-height: 18px; /* 171.429% */
-  letter-spacing: 0.3px;
-  text-align: center;
-  margin-top: 10px;
-}
+
 /* chart styles */
 .chart-section {
   background: #222;
@@ -442,4 +443,115 @@ td {
 }
 .form-btn {
   margin-top: 20px;
+}
+/* team section styles */
+.team .team-container {
+  background-color: #222;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+.team-container .team-member-1 {
+  grid-column: 1 / span 4;
+  grid-row: 1 / span 1;
+  border-radius: 10px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url("../images/trainer1.png") lightgray 50% / cover;
+  height: 270px;
+  position: relative;
+  overflow: hidden;
+}
+.team-container .team-member-2 {
+  grid-column: 5 / span 4;
+  grid-row: 1 / span 1;
+  border-radius: 10px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url("../images/trainer2.png") lightgray 50% / cover no-repeat;
+  height: 270px;
+  position: relative;
+  overflow: hidden;
+}
+.team-container .team-member-3 {
+  grid-column: 9 / span 4;
+  grid-row: 1 / span 1;
+  border-radius: 10px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url("../images/trainer3.png") lightgray 50% / cover no-repeat;
+  height: 270px;
+  position: relative;
+  overflow: hidden;
+}
+.team-container .team-member-4 {
+  grid-column: 1 / span 4;
+  grid-row: 2 / span 1;
+  border-radius: 10px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url("../images/trainer4.png") lightgray 50% / cover no-repeat;
+  height: 270px;
+  position: relative;
+  overflow: hidden;
+}
+.team-container .team-member-5 {
+  grid-column: 5 / span 4;
+  grid-row: 2 / span 1;
+  border-radius: 10px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url("../images/trainer5.png") lightgray 50% / cover no-repeat;
+  height: 270px;
+  position: relative;
+  overflow: hidden;
+}
+.team-container .team-member-6 {
+  grid-column: 9 / span 4;
+  grid-row: 2 / span 1;
+  border-radius: 10px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url("../images/trainer6.png") lightgray 50% / cover no-repeat;
+  height: 270px;
+  position: relative;
+  overflow: hidden;
+}
+.text-overlay {
+  position: absolute;
+  left: 15px;
+  right: 0;
+  bottom: 15px;
+}
+.text-overlay h3 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 110%; /* 24px */
+}
+.text-overlay p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 115%; /* 16.8px */
 }
