@@ -555,3 +555,73 @@ td {
   font-weight: 400;
   line-height: 115%; /* 16.8px */
 }
+/* footer styles */
+.footer-section {
+  margin-top: 70px;
+  background-color: #222;
+  padding: 40px 0;
+}
+.footer-section .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-content .footer-left-content {
+  width: 40%;
+}
+.footer-left-content .footer-left-title {
+  color: #e6533c;
+  font-size: 53px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 110%; /* 84px */
+}
+.footer-left-content .footer-desc {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 171.429% */
+  letter-spacing: 0.3px;
+  margin-top: 10px;
+}
+.footer-content .footer-right-content {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-right-content .footer-bio {
+}
+.footer-bio .bio-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 120%; /* 38.4px */
+  margin-bottom: 20px;
+}
+.footer-bio p {
+  color: rgba(255, 255, 255, 0.5);
+
+  /* P1 Main/Regular */
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 27.6px */
+  margin-top: 12px;
+  font-size: 16px;
+}
+
+.footer-section .bottom {
+}
+.bottom .horiz {
+  color: rgba(255, 255, 255, 0.5); /* 120% */
+}
+.bottom .footer-desc {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px; /* 120% */
+  letter-spacing: 0.3px;
+  text-align: center;
+  margin-top: 20px;
+}
